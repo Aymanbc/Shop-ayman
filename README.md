@@ -218,42 +218,38 @@
         <h2 style="text-align: center; margin-bottom: 40px;">Nos Produits</h2>
         <div class="products">
             <div class="product">
-                <img src="https://nextlevelpc.ma/wp-content/uploads/2022/07/PC-GAMER-MAROC-AMD-RYZEN-5-RTX-2060-VENTUS-1024x1024.webp" alt="PC Gaming Professionnel">
-                <h3>PC Gaming Professionnel</h3>
-                <p>Le top de la performance pour les joueurs exigeants.</p>
+                <img src="https://www.ultrapc.ma/23765-large_default/pc-gamer-ultrapc-intel-core-i9-13900k-1tb-ssd-32gb-rtx4070ti.jpg" alt="PC Gaming Intel Core i9">
+                <h3>PC Gaming Intel Core i9</h3>
+                <p>Performances de jeu extrêmes avec le dernier processeur Intel.</p>
                 <p class="price">2500€</p>
                 <button><a href="http://www.shopayman.ma" style="color: white; text-decoration: none;">Acheter Maintenant</a></button>
             </div>
             <div class="product">
-                <img src="https://pcgamercasa.ma/10210-large_default/pc-gamer-casa-PROGTD.jpg" alt="PC Gaming Ultra">
-                <h3>PC Gaming Ultra</h3>
-                <p>Pour des graphismes fluides et des performances élevées.</p>
+                <img src="https://nextlevelpc.ma/wp-content/uploads/2022/07/PC-GAMER-MAROC-AMD-RYZEN-5-RTX-2060-VENTUS-1024x1024.webp" alt="PC Gaming AMD Ryzen 5">
+                <h3>PC Gaming AMD Ryzen 5</h3>
+                <p>Une combinaison parfaite de puissance et d'efficacité.</p>
                 <p class="price">2000€</p>
-                <button><a href="http://www.shopayman.ma" style="color: black; text-decoration: none;">Acheter Maintenant</a></button>
-                <section id="products" class="container">
-    <h2 style="text-align: center; margin-bottom: 40px;">Nos Produits</h2>
-    <div class="products">
-        <div class="product">
-            <img src="https://pcgamercasa.ma/10210-large_default/pc-gamer-casa-PROGTD.jpg" alt="PC Gaming Professionnel">
-            <h3>PC Gaming Professionnel</h3>
-            <p>Le top de la performance pour les joueurs exigeants.</p>
-            <p class="price">2500€</p>
-            <button><a href="http://www.shopayman.ma" style="color: white; text-decoration: none;" target="_blank">Acheter Maintenant</a></button>
+                <button><a href="http://www.shopayman.ma" style="color: white; text-decoration: none;">Acheter Maintenant</a></button>
+            </div>
+            <div class="product">
+                <img src="https://pcgamercasa.ma/10210-large_default/pc-gamer-casa-PROGTD.jpg" alt="PC Gaming Casa PRO">
+                <h3>PC Gaming Casa PRO</h3>
+                <p>Pour des graphismes fluides et une expérience de jeu incroyable.</p>
+                <p class="price">2200€</p>
+                <button><a href="http://www.shopayman.ma" style="color: white; text-decoration: none;">Acheter Maintenant</a></button>
+            </div>
         </div>
-        <div class="product">
-            <img src="https://www.ultrapc.ma/23765-large_default/pc-gamer-ultrapc-intel-core-i9-13900k-1tb-ssd-32gb-rtx4070ti.jpg" alt="PC Gaming Ultra">
-            <h3>PC Gaming Ultra</h3>
-            <p>Pour des graphismes fluides et des performances élevées.</p>
-            <p class="price">2000€</p>
-            <button><a href="http://www.shopayman.ma" style="color: white; text-decoration: none;" target="_blank">Acheter Maintenant</a></button>
-        </div>
-        <div class="product">
-            <img src="https://www.ultrapc.ma/23765-large_default/pc-gamer-ultrapc-intel-core-i9-13900k-1tb-ssd-32gb-rtx4070ti.jpg" alt="Accessoires Gaming Pro">
-            <h3>Accessoires Gaming Pro</h3>
-            <p>Souris, claviers et casques de haute qualité.</p>
-            <p class="price">À partir de 150€</p>
-            <button><a href="http://www.shopayman.ma" style="color: white; text-decoration: none;" target="_blank">Acheter Maintenant</a></button>
-        </div>
-    </div>
-</section>
-                
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Téléphone : <a href="tel:+212684809473">+212 684809473</a></p>
+        <p>Email : <a href="mailto:aymanbakhache3@gmail.com">aymanbakhache3@gmail.com</a></p>
+        <p>Visitez notre site web : <a href="http://www.shopayman.ma" target="_blank">www.shopayman.ma</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shop Ayman. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
