@@ -13,7 +13,7 @@
             padding: 0;
         }
         .menu {
-            position: relative;
+            position: relative;9
             display: inline-block;
         }
         .menu-button {
@@ -174,7 +174,7 @@
 </head>
 <body>
     <header>
-        <h1 class="site-name">Ayman Shop 🇲🇦</h1>
+        <h1 class="site-name">Anas Shop 🇲🇦</h1>
         <h2>Bienvenue sur Shopfoot</h2>
         <p>Votre boutique de vêtements préférée pour les fans de football</p>
     </header>
