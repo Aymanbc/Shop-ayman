@@ -1,102 +1,166 @@
-<!DOCTYPE html>
+</body></head>
+<body>
+    <header>
+        <h1 class="site-name">Ayman Shop 🇲🇦</h1>
+        <h2>Bienvenue sur Shopfoot</h2>
+        <p>Votre boutique de vêtements préférée pour les fans de football</p>
+    </header>
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayman Shop - Boutique de T-Shirts 🇲🇦</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Lien vers le fichier CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            
+i8h            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .site-name {
+            font-size: 12px;
+            color: #fff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            transition: transform 0.2s;
+            display: inline-block;
+            width: 200px;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .info {
+            background-color: #e7f3fe;
+            border-left: 6px solid #2196F3;
+            padding: 10px;
+            margin: 20px 0;
+            text-align: left;
+        }
+        .contact {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .sort {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .stars {
+            color: #FFD700; /* Gold color for stars */
+        }<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop Ayman - Gaming & High-Quality PC</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Ayman Shop - Boutique de T-Shirts 🇲🇦</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Lien vers le fichier CSS -->
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
+            background-color: #f4f4f4;
             color: #333;
         }
 
-        header {
-            background-color: #0d1117;
-            padding: 20px;
-            text-align: center;
-            color: #fff;
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-            margin: 0;
-        }
-
-        header p {
-            margin: 10px 0;
-            font-size: 1.2rem;
-        }
-
-        nav {
-            background-color: #161b22;
+        /* Style de la barre de navigation */
+        .navbar {
             display: flex;
-            justify-content: center;
-            padding: 15px 0;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 15px;
         }
 
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
+        .navbar .menu {
+            display: flex;
+            gap: 20px;
         }
 
-        nav ul li {
-            display: inline;
-            margin: 0 20px;
-        }
-
-        nav ul li a {
+        .navbar .menu a {
             color: #fff;
             text-decoration: none;
-            font-size: 1.1rem;
-            transition: color 0.3s ease;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s;
         }
 
-        nav ul li a:hover {
-            color: #58a6ff;
+        .navbar .menu a:hover {
+            color: #FFD700;
         }
 
-        .banner {
-            background: url('images/gaming_banner.jpg') no-repeat center center/cover;
-            height: 500px;
+        .navbar .icons {
             display: flex;
-            justify-content: center;
             align-items: center;
-            color: white;
-            text-align: center;
+            gap: 20px;
         }
 
-        .banner h1 {
-            font-size: 3rem;
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 10px 20px;
-            border-radius: 10px;
+        .navbar .icons a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            transition: transform 0.3s;
+        }
+
+        .navbar .icons a:hover {
+            transform: scale(1.2);
         }
 
         .container {
             max-width: 1200px;
-            margin: 0 auto;
+            margin: 20px auto;
             padding: 20px;
-        }
-
-        .products {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         .product {
-            background-color: #fff;
-            border-radius: 15px;
-            overflow: hidden;
-            margin-bottom: 30px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            width: 31%;
-            transition: transform 0.3s ease;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            transition: transform 0.2s;
+            display: inline-block;
+            width: 200px;
         }
 
         .product:hover {
@@ -104,152 +168,157 @@
         }
 
         .product img {
-            width: 100%;
-            border-bottom: 2px solid #58a6ff;
-        }
-
-        .product h3 {
-            text-align: center;
-            padding: 15px 0;
-            background-color: #161b22;
-            color: white;
-            font-size: 1.3rem;
-        }
-
-        .product p {
-            padding: 0 15px;
-            font-size: 1.1rem;
-            color: #444;
-        }
-
-        .product .price {
-            padding: 0 15px;
-            font-size: 1.4rem;
-            color: #1f8b4c;
-            font-weight: bold;
-        }
-
-        .product button {
-            display: block;
-            width: calc(100% - 30px);
-            margin: 20px auto;
-            padding: 10px 0;
-            background-color: #1f8b4c;
-            color: white;
-            border: none;
+            max-width: 100%;
+            height: auto;
             border-radius: 5px;
-            font-size: 1.1rem;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
         }
 
-        .product button:hover {
-            background-color: #14592e;
-        }
-
-        #contact {
-            background-color: #161b22;
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
-        }
-
-        #contact h2 {
-            font-size: 2rem;
-            margin-bottom: 20px;
-        }
-
-        #contact p {
-            font-size: 1.2rem;
-            margin: 10px 0;
-        }
-
-        #contact a {
-            color: #58a6ff;
-            text-decoration: none;
-        }
-
-        footer {
-            background-color: #0d1117;
-            color: white;
+        .footer {
             text-align: center;
             padding: 20px;
+            background-color: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
         }
 
-        footer p {
-            margin: 0;
+        .info {
+            background-color: #e7f3fe;
+            border-left: 6px solid #2196F3;
+            padding: 10px;
+            margin: 20px 0;
+            text-align: left;
         }
 
-        @media (max-width: 768px) {
-            .products {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .product {
-                width: 80%;
-            }
-
-            .banner h1 {
-                font-size: 2.2rem;
-            }
+        .contact {
+            margin-top: 20px;
+            text-align: center;
         }
+
+        .btn {
+            background-color: #FFD700;
+            color: #333;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #ffcc00;
+        }
+
     </style>
 </head>
 <body>
-    <header>
-        <h1>Shop Ayman - Gaming & High-Quality PCs</h1>
-        <p>Votre destination pour les meilleurs PC Gaming</p>
-    </header>
+    <!-- Barre de navigation avec icônes -->
+    <div class="navbar">
+        <div class="menu">
+            <a href="#">Accueil</a>
+            <a href="#">Collection</a>
+           <button onclick="window.location.href='#contact';">Contact</button>
+        </div>
+        <div class="icons">
+            <a href="#"><i class="fas fa-bars"></i></a> <!-- Trois lignes -->
+            <a href="#"><i class="fas fa-shopping-cart"></i></a> <!-- Panier -->
+        </div>
+    </div>
 
-    <nav>
-        <ul>
-            <li><a href="#home">Accueil</a></li>
-            <li><a href="#products">Produits</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <!-- Contenu principal -->
+    <div class="container">
+        <h2>Nos T-Shirts</h2>
 
-    <section class="banner">
-        <h1>Découvrez nos PC Gaming Haut de Gamme</h1>
-    </section>
-
-    <section id="products" class="container">
-        <h2 style="text-align: center; margin-bottom: 40px;">Nos Produits</h2>
         <div class="products">
-            <div class="product">
-                <img src="https://www.ultrapc.ma/23765-large_default/pc-gamer-ultrapc-intel-core-i9-13900k-1tb-ssd-32gb-rtx4070ti.jpg" alt="PC Gaming Intel Core i9">
-                <h3>PC Gaming Intel Core i9</h3>
-                <p>Performances de jeu extrêmes avec le dernier processeur Intel.</p>
-                <p class="price">2500€</p>
-                <button><a href="http://www.shopayman.ma" style="color: white; text-decoration: none;">Acheter Maintenant</a></button>
+            <!-- Produit FC Barcelone -->
+            <div class="product" data-price="15">
+                <img src="https://indiansoccermart.in/cdn/shop/products/Screenshot_2021_1116_162814_940x.jpg?v=1637060490" alt="T-Shirt FC Barcelone">
+                <h3>FC Barcelone</h3>
+                <p>Prix: 15,00 €</p>
+                <div class="stars">★★★★☆</div>
+                <button class="btn" onclick="window.location.href='barca.html';">Acheter</button>
             </div>
-            <div class="product">
-                <img src="https://nextlevelpc.ma/wp-content/uploads/2022/07/PC-GAMER-MAROC-AMD-RYZEN-5-RTX-2060-VENTUS-1024x1024.webp" alt="PC Gaming AMD Ryzen 5">
-                <h3>PC Gaming AMD Ryzen 5</h3>
-                <p>Une combinaison parfaite de puissance et d'efficacité.</p>
-                <p class="price">2000€</p>
-                <button><a href="http://www.shopayman.ma" style="color: white; text-decoration: none;">Acheter Maintenant</a></button>
+
+            <!-- Produit Real Madrid -->
+            <div class="product" data-price="15">
+                <img src="https://championgearz.co.za/cdn/shop/files/d65db9ad.jpg?v=1703359270&width=990" alt="T-Shirt Real Madrid">
+                <h3>Real Madrid</h3>
+                <p>Prix: 15,00 €</p>
+                <div class="stars">★★★★☆</div>
+                <button class="btn" onclick="window.location.href='real.html';">Acheter</button>
             </div>
-            <div class="product">
-                <img src="https://pcgamercasa.ma/10210-large_default/pc-gamer-casa-PROGTD.jpg" alt="PC Gaming Casa PRO">
-                <h3>PC Gaming Casa PRO</h3>
-                <p>Pour des graphismes fluides et une expérience de jeu incroyable.</p>
-                <p class="price">2200€</p>
-                <button><a href="http://www.shopayman.ma" style="color: white; text-decoration: none;">Acheter Maintenant</a></button>
+
+            <!-- Produit Manchester United -->
+            <div class="product" data-price="15">
+                <img src="https://www.thejerseystreet.com/cdn/shop/products/manchester-united_retro-vintage-manchester-united-2007-2008-jersey-retro-vintage-manchester-united-2007-2008-1_900x.jpg?v=1623529311" alt="T-Shirt Manchester United">
+                <h3>Manchester United</h3>
+                <p>Prix: 15,00 €</p>
+                <div class="stars">★★★★☆</div>
+                <button class="btn" onclick="window.location.href='unated.html';">Acheter</button>
+            </div>
+
+            <!-- Produit Milan AC -->
+            <div class="product" data-price="15">
+                <img src="https://i0.wp.com/jaraguar.com/wp-content/uploads/2022/01/7414108f.jpg?resize=600%2C682&ssl=1" alt="T-Shirt Milan AC">
+                <h3>Milan AC</h3>
+                <p>Prix: 15,00 €</p>
+                <div class="stars">★★★★☆</div>
+                <button class="btn" onclick="window.location.href='milan.html';">Acheter</button>
+            </div>
+
+            <!-- Produit Juventus -->
+            <div class="product" data-price="15">
+                <img src="https://casualfootballshirts.co.uk/cdn/shop/files/CEB98AFA-1DFA-4B66-84CD-ACA8F3788F8C.jpg?v=1700748127&width=990" alt="T-Shirt Juventus">
+                <h3>Juventus</h3>
+                <p>Prix: 15,00 €</p>
+                <div class="stars">★★★★☆</div>
+                <button class="btn" onclick="window.location.href='juventus .html';">Acheter</button>
+            </div>
+
+            <!-- Produit AS FAR -->
+            <div class="product" data-price="15">
+                <img src="https://cdn.footballkitarchive.com/2022/01/16/FcFpuaMjoEddZv2.jpg" alt="T-Shirt AS FAR">
+                <h3>AS FAR</h3>
+                <p>Prix: 15,00 €</p>
+                <div class="stars">★★★★☆</div>
+                <button class="btn" onclick="window.location.href='far.html';">Acheter</button>
+            </div>
+
+            <!-- Produit Arsenal -->
+            <div class="product" data-price="15">
+                <img src="https://www.thesoccerpark.com/cdn/shop/files/46fa691d_1080x.jpg?v=1686944270" alt="T-Shirt Arsenal">
+                <h3>Arsenal</h3>
+                <p>Prix: 15,00 €</p>
+                <div class="stars">★★★★☆</div>
+                <button class="btn" onclick="window.location.href='arsenal.html';">Acheter</button>
+            </div>
+
+            <!-- Produit Chelsea -->
+            <div class="product" data-price="15">
+                <img src="https://i.ebayimg.com/images/g/7CEAAOSwm-xjyzpW/s-l1200.webp" alt="T-Shirt Chelsea">
+                <h3>Chelsea</h3>
+                <p>Prix: 15,00 €</p>
+                <div class="stars">★★★★☆</div>
+                <button class="btn" onclick="window.location.href='chels.html';">Acheter</button>
             </div>
         </div>
-    </section>
-
-    <section id="contact">
-        <h2>Contactez-nous</h2>
-        <p>Téléphone : <a href="tel:+212684809473">+212 684809473</a></p>
-        <p>Email : <a href="mailto:aymanbakhache3@gmail.com">aymanbakhache3@gmail.com</a></p>
-        <p>Visitez notre site web : <a href="http://www.shopayman.ma" target="_blank">www.shopayman.ma</a></p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Shop Ayman. Tous droits réservés.</p>
-    </footer>
-</body>
-</html>
+            <!-- Informations supplémentaires -->
+        <div class="info">
+                
+            </h3>
+            <h3>Informations sur nos produits :</h3>
+            <ul>
+                <li>100% coton</li>
+                <li>100% original</li>
+                <li>Livraison partout au Maroc</li>
+            </ul>
+        </div>
+        
+        <!-- Coordonnées -->
+        <div class="contact">
+            <h3>Contactez-nous :</h3>
+            <p>Téléphone : +212 684809473</p>
+            <p>Email : <a href="mailto:shopfoot@gmail.com">shopfoot@gmail.com</a></p>
+        </div>
+            
