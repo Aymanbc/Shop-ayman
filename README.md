@@ -1,4 +1,4 @@
-</body></head>
+
 <body>
     <header>
         <h1 class="site-name">Ayman Shop 🇲🇦</h1>
@@ -215,13 +215,12 @@ i8h            color: #fff;
     </style>
 </head>
 <body>
-    ----------------------------------------*_*----------------------------------------
+    ----------------------------------*_*----------------------------------
     <!-- Boutons de navigation -->
         <button onclick="window.location.href='#collection';">Collection</button>
         <button onclick="window.location.href='#contact';">Contact</button>
         <button onclick="window.location.href='#top';">Accueil</button> <!-- Bouton Accueil -->
-    </header>
-    </div>
+   
 
     <!-- Contenu principal -->
     <div class="container">
@@ -275,7 +274,7 @@ i8h            color: #fff;
 
             <!-- Produit AS FAR -->
             <div class="product" data-price="15">
-                <img src="https://cdn.footballkitarchive.com/2022/01/16/FcFpuaMjoEddZv2.jpg" alt="T-Shirt AS FAR">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbMfWntD8G8R-vn0MOg-ukqODEEj3pepKp2w&s" alt="T-Shirt AS FAR">
                 <h3>AS FAR</h3>
                 <p>Prix: 15,00 €</p>
                 <div class="stars">★★★★☆</div>
@@ -342,4 +341,4 @@ i8h            color: #fff;
     </script>
 
 </body>
-</html>
+
