@@ -181,6 +181,8 @@ i8h            color: #fff;
             position: relative;
             bottom: 0;
             width: 100%;
+            text-align: center;
+             display: inline-block;
         }
 
         .info {
@@ -213,17 +215,12 @@ i8h            color: #fff;
     </style>
 </head>
 <body>
-    <!-- Barre de navigation avec icônes -->
-    <div class="navbar">
-        <div class="menu">
-            <a href="#">Accueil</a>
-            <a href="#">Collection</a>
-           <button onclick="window.location.href='#contact';">Contact</button>
-        </div>
-        <div class="icons">
-            <a href="#"><i class="fas fa-bars"></i></a> <!-- Trois lignes -->
-            <a href="#"><i class="fas fa-shopping-cart"></i></a> <!-- Panier -->
-        </div>
+    ----------------------------------------*_*----------------------------------------
+    <!-- Boutons de navigation -->
+        <button onclick="window.location.href='#collection';">Collection</button>
+        <button onclick="window.location.href='#contact';">Contact</button>
+        <button onclick="window.location.href='#top';">Accueil</button> <!-- Bouton Accueil -->
+    </header>
     </div>
 
     <!-- Contenu principal -->
@@ -303,22 +300,46 @@ i8h            color: #fff;
                 <button class="btn" onclick="window.location.href='chels.html';">Acheter</button>
             </div>
         </div>
-            <!-- Informations supplémentaires -->
-        <div class="info">
-                
-            </h3>
-            <h3>Informations sur nos produits :</h3>
-            <ul>
-                <li>100% coton</li>
-                <li>100% original</li>
-                <li>Livraison partout au Maroc</li>
-            </ul>
-        </div>
+          </div>
+    </div>
+</div>
+  </div>
+    </div>
+</div>
+
+<div id="collection" class="container">
+    <h2>Nos Collections</h2>
+    <div class="description">
+        <p>•Découvrez notre collection exclusive de T-Shirt 100% coton.</p>     
+        <p> •Livraison partout au Maroc🚚.</p>
         
-        <!-- Coordonnées -->
-        <div class="contact">
-            <h3>Contactez-nous :</h3>
-            <p>Téléphone : +212 684809473</p>
-            <p>Email : <a href="mailto:shopfoot@gmail.com">shopfoot@gmail.com</a></p>
-        </div>
-            
+    </div>
+</div>
+
+<footer id="contact">
+    <div class="footer-content">
+        <p>Contactez-nous : +212 684809473 | <a href="mailto:shopfoot@gmail.com">shopfoot@gmail.com</a></p>
+        <p>&copy; 2024 Ayman Shop. Tous droits réservés.</p>
+    </div>
+</footer>
+
+
+    <script>
+        function sortProducts() {
+            const select = document.getElementById('sort');
+            const products = Array.from(document.querySelectorAll('.product'));
+            const container = document.getElementById('product-list');
+
+            products.sort((a, b) => {
+                const priceA = parseFloat(a.getAttribute('data-price'));
+                const priceB = parseFloat(b.getAttribute('data-price'));
+                return select.value === 'asc' ? priceA - priceB : priceB - priceA;
+            });
+
+            container.innerHTML = '';
+            products.forEach(product => container.appendChild(product));
+        }
+    </script>
+
+</body>
+</html>
