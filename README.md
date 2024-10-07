@@ -5,7 +5,6 @@
         <h2>Bienvenue sur Shopfoot</h2>
         <p>Votre boutique de vêtements préférée pour les fans de football</p>
     </header>
-</html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -86,7 +85,7 @@ i8h            color: #fff;
         .stars {
             color: #FFD700; /* Gold color for stars */
         }<!DOCTYPE html>
-<html lang="fr">
+ lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
